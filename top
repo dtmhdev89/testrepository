@@ -1,0 +1,38 @@
+[33mcommit d821e87a8909b97a7cc9665d54aedf9695d7662a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: dtmhdev <dtmhqng2906@gmail.com>
+Date:   Wed Sep 26 15:34:36 2018 +0700
+
+    trying commit with alo.txt in changes to be committed
+
+ alo.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+[33mcommit 5a5bbd51c5386c8c585fcd83b5e2d215d4642254[m
+Author: dtmhdev <dtmhqng2906@gmail.com>
+Date:   Wed Sep 26 15:30:51 2018 +0700
+
+    trying commit with deleted file alo.txt
+
+ alo.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+[33mcommit ab4f4b76583c99d14282f121f379b475015848ad[m
+Author: dtmhdev <dtmhqng2906@gmail.com>
+Date:   Wed Sep 26 15:20:07 2018 +0700
+
+    skipping add demo.txt
+
+ demo.txt | 3 [32m++[m[31m-[m
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+[33mcommit 849acccaa4230510b824e080ad986207e81c8d86[m
+Author: dtmhdev <dtmhqng2906@gmail.com>
+Date:   Wed Sep 26 15:16:24 2018 +0700
+
+    skipping stage area
+
+ .gitignore    | 17 [32m+++++++++++++++++[m
+ demo.txt      |  1 [32m+[m
+ demoalpha.txt |  0
+ readme.md     |  0
+ 4 files changed, 18 insertions(+)
