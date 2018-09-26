@@ -1,0 +1,17 @@
+#no .md file
+*.md
+
+#but do track readme.md, even though I am ignoring .md file above
+!readme.md
+
+#only ignore log file in the current directory, not subdir/log
+/log.*
+
+#ignore all files in donottrackthisfolder/ directory
+nottrackthisfolder/
+
+#ignore all file .txt in doc/, but not in doc/subdirectory/.txt
+doc/*.txt
+
+#ignore all .pdf file in doc/ directory and any of its subdirectories
+doc/**/*.pdf
